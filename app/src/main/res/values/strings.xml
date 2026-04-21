@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">FF Skin Tool</string>
+
+    <string name="diamond_desc">
+        The diamond is a shiny, sparkly object that looks like it fell straight from a fairy tale. It is basically a fancy rock that people really really like. Known for its unmatched brilliance and ability to make wallets cry, this tiny stone packs a big punch in the world of fashion and romance. Whether it is sitting on a ring, dangling from ears, or locked away in a secret vault, a diamond always knows how to steal the spotlight. Also doubles as a good excuse to say "yes" to someone.
+
+        Diamonds are one of the hardest natural substances found on Earth, formed deep within the planet under extreme pressure and heat over billions of years. Because of this, they symbolize strength, eternity, and unbreakable bonds. In modern culture, diamonds are widely used in jewelry such as engagement rings, necklaces, bracelets, and luxury accessories.
+
+        Beyond their beauty, diamonds also have practical uses. They are used in industrial cutting tools, drilling equipment, and precision instruments because of their incredible hardness. Synthetic diamonds are also created in labs and are used in technology, electronics, and even medical equipment.
+
+        In gaming and digital worlds, diamonds often represent premium currency or high value rewards. Players use diamonds to unlock exclusive characters, skins, weapons, and special features. Because they are rare and valuable, diamonds usually hold a premium status and are often associated with achievements, upgrades, and elite progression.
+
+        Overall, diamonds are not just about luxury they represent power, rarity, and value both in real life and virtual worlds. Whether you are collecting them in a game or wearing them in real life, diamonds always stand out as a symbol of prestige and brilliance.
+    </string>
+
+
+    <string name="desc_jai">Jai is a fearless and powerful character in Free Fire, known for his aggressive combat style and unmatched strength in close-range battles. He is a highly trained fighter with exceptional endurance, allowing him to stay active and effective even during long and intense fights. Jai thrives in high-pressure situations where quick thinking, fast reflexes, and strong decision-making are essential.
+
+    Jai s personality reflects confidence, bravery, and a never-back-down attitude. He is always ready to face enemies head-on, making him a perfect choice for players who enjoy rushing gameplay and dominating opponents in close combat. His presence on the battlefield brings intensity and energy, pushing players to stay active and aggressive throughout the match.
+
+    One of Jai’s biggest strengths is his unique ability, which allows him to automatically reload his weapon after knocking down an enemy. This gives him a huge advantage during fast-paced fights, especially when facing multiple enemies at once. With this skill, players can maintain continuous pressure without worrying about reload time, making Jai extremely effective in squad battles and close encounters.
+
+    In terms of appearance, Jai has a strong and bold look that perfectly matches his personality. His outfit reflects a mix of tactical and modern combat gear, symbolizing strength, discipline, and readiness for battle. His confident stance and determined expression clearly show that he is always prepared for action.
+
+    Overall, Jai is an ideal character for players who prefer aggressive gameplay, close-range fights, and fast-paced action. He combines power, speed, and strategy, making him a reliable and exciting choice for dominating the battlefield in Free Fire.</string>
+
+
+    <string name="desc_moco">Moco is a brilliant and highly intelligent hacker in Free Fire, known for her exceptional skills in tracking and gathering enemy information. She is one of the most strategic characters in the game, making her an essential choice for players who prefer smart and tactical gameplay over aggressive rushing. Moco plays a crucial role in providing real-time information, which can completely change the outcome of a battle.
+
+    Her personality reflects curiosity, confidence, and a sharp analytical mind. Moco always stays one step ahead of her enemies by using her intelligence and advanced hacking techniques. She is calm under pressure and focuses on gaining an informational advantage rather than relying only on combat strength.
+
+    Moco’s unique ability allows her to tag enemies when she shoots them, revealing their location for a certain duration. This gives both her and her teammates a major advantage, as they can track enemy movements even behind cover. This skill is extremely useful in squad gameplay, where communication and information sharing are key to victory. It helps in planning attacks, avoiding ambushes, and securing kills more efficiently.
+
+    In terms of appearance, Moco stands out with her futuristic and tech-inspired style. Her outfit often features neon elements and a modern hacker aesthetic, representing her digital expertise and rebellious personality. She carries herself with confidence and a slightly mysterious aura, making her one of the most unique characters in the game.
+
+    Overall, Moco is the perfect character for players who value strategy, awareness, and teamwork. She transforms information into power, allowing players to make smarter decisions and dominate the battlefield with precision. Whether playing solo or in a squad, Moco provides a strong tactical advantage that can lead to consistent victories in Free Fire.</string>
+
+    <string name="desc_steffie">Steffie is a creative and energetic character in Free Fire, widely known for her artistic personality and unique defensive abilities. She combines art with combat by using graffiti as a powerful tool to protect herself and her teammates. Unlike aggressive fighters, Steffie focuses on defense and support, making her an essential character in team-based strategies.
+
+    Her personality is bold, expressive, and full of creativity. Steffie sees the battlefield as her canvas, where she uses her skills not just to fight but to outsmart enemies. She stays calm in intense situations and uses her intelligence to provide safety and control during chaotic fights.
+
+    Steffie’s special ability allows her to create a graffiti zone that significantly reduces explosive damage, including grenades and other area-based attacks. This protective zone also provides additional defense benefits, helping her team survive longer during close encounters. Her ability is especially useful in squad gameplay, where coordinated defense can turn the tide of battle.
+
+    In terms of appearance, Steffie stands out with her colorful and urban-inspired outfit. Her style reflects a mix of street art culture and modern combat gear, making her visually unique and instantly recognizable. Her confident attitude and artistic vibe make her one of the most stylish characters in Free Fire.
+
+    Overall, Steffie is a perfect choice for players who prefer a defensive and supportive playstyle. She brings creativity, protection, and strategic advantage to the team, making her highly valuable during intense battles. With Steffie, players can defend smarter, survive longer, and support their squad effectively in Free Fire.</string>
+
+    <string name="desc_chrono">Chrono is one of the most powerful and iconic characters in Free Fire, known for his futuristic abilities and strong battlefield presence. Inspired by a time-manipulating concept, Chrono has the unique capability to control energy fields that give him both protection and mobility advantages during combat. He is a perfect choice for players who prefer aggressive gameplay while still maintaining strong defensive capabilities.
+
+    Chrono s personality reflects confidence, leadership, and a fearless attitude. He is always ready to take control of the situation and lead from the front, making him highly effective in both solo and squad matches. His calm mindset combined with quick decision-making allows him to dominate even in high-pressure situations.
+
+    His special ability allows him to create a powerful force field that blocks incoming damage from enemies while simultaneously increasing his movement speed. This makes him extremely dangerous in combat, as he can push enemies, escape risky situations, or reposition strategically without taking heavy damage. The combination of defense and speed gives players a major advantage, especially during intense fights and final zones.
+
+    In terms of appearance, Chrono stands out with a futuristic and stylish design. His outfit reflects advanced technology and modern combat aesthetics, giving him a heroic and elite look. His confident posture and sharp visuals make him one of the most recognizable characters in Free Fire.
+
+    Overall, Chrono is an ideal character for players who want a balance of offense and defense. He offers protection, speed, and control over the battlefield, making him a top-tier choice for dominating matches in Free Fire. Whether you are rushing enemies or surviving tough situations, Chrono provides a powerful and reliable gameplay experience.</string>
+
+    <string name="desc_k">K is a highly intelligent and disciplined character in Free Fire, known for his exceptional mastery over EP (Energy Points) and survival techniques. Inspired by a martial arts master, K brings a unique blend of strategy, control, and adaptability to the battlefield. He is designed for players who value long-term survival, smart resource management, and balanced gameplay.
+
+    K’s personality reflects calmness, wisdom, and deep focus. He is not just a fighter but also a mentor-like figure who understands the importance of control and patience in battle. His composed mindset allows players to stay steady even in difficult situations, making better decisions during intense fights.
+
+    K’s special ability is centered around EP management, allowing him to convert EP into HP over time, giving him a significant advantage in sustaining damage and recovering without relying heavily on medkits. What makes K even more powerful is his dual-mode system. In Jiu-Jitsu Mode, he increases the EP conversion rate for himself and nearby teammates, making it ideal for squad support and healing. In Psychology Mode, he continuously regenerates EP, ensuring a steady supply of energy for long battles. Players can switch between these modes depending on the situation, making K extremely versatile and adaptable.
+
+    In terms of appearance, K has a strong and composed look that reflects his martial arts background. His outfit combines traditional and modern elements, symbolizing discipline, strength, and inner balance. His calm expression and confident stance highlight his mastery and control over both mind and body.
+
+    Overall, K is a perfect character for players who prefer strategic gameplay, survivability, and flexibility. He provides a unique advantage by combining healing, support, and adaptability, making him a reliable choice for both solo players and team-based matches in Free Fire.</string>
+
+    <string name="desc_luna">Luna is a stylish, confident, and highly skilled character in Free Fire, known for her calm mindset and exceptional combat abilities. She represents a perfect balance of intelligence, precision, and strength, making her a powerful choice for players who prefer strategic gameplay. Luna maintains her composure even in the most intense battles, allowing her to make smart decisions under pressure and outplay her opponents with ease.
+
+            Her personality reflects determination and inner strength. Luna is not just a fighter but also a thinker, always analyzing situations before taking action. This makes her extremely effective in both solo and team modes. She supports her teammates while also being capable of handling enemies independently.
+
+            Luna’s unique ability enhances her performance during fights, especially when using rifles or engaging in continuous combat. Her skill allows players to maintain momentum, giving them an advantage in fast-paced situations. This makes her ideal for aggressive players who like to stay in action without losing control.
+
+            In terms of appearance, Luna stands out with her modern and stylish design. Her outfit reflects a blend of futuristic and tactical fashion, symbolizing both elegance and power. She carries herself with confidence, which is clearly visible in her posture and expressions.
+
+            Overall, Luna is a well-balanced character who combines beauty, intelligence, and combat strength. Whether you are pushing ranks or playing casually, Luna offers a reliable and powerful gameplay experience. She is perfect for players who want both style and performance in one character.</string>
+
+    <string name="desc_skyler">Skyler is a powerful and dynamic character in Free Fire, known for his ability to break enemy defenses and maintain strong survivability during combat. He is especially effective against players who rely heavily on gloo walls for protection, making him a perfect counter to defensive strategies. Skyler is an ideal choice for aggressive players who like to push enemies and control the battlefield.
+
+    Skyler’s personality reflects confidence, charisma, and a bold attitude. As a character inspired by a music artist, he brings energy and rhythm into combat, turning every battle into an intense and fast-paced experience. He is fearless when engaging enemies and always looks for opportunities to break through defenses and dominate fights.
+
+    His unique ability allows him to release a sonic wave that can destroy multiple gloo walls within range, instantly removing enemy cover. In addition to this, every gloo wall deployed by the player helps in recovering HP over time, giving Skyler both offensive and defensive advantages. This combination makes him extremely effective in continuous fights, where both damage and healing play a crucial role.
+
+    In terms of appearance, Skyler stands out with a stylish and modern look inspired by celebrity aesthetics. His outfit blends fashion with combat readiness, giving him a unique and eye-catching presence on the battlefield. His confident posture and energetic vibe make him one of the most distinctive characters in Free Fire.
+
+    Overall, Skyler is a top-tier character for players who prefer aggressive gameplay with smart advantages. He excels at breaking enemy defenses, maintaining health, and keeping pressure on opponents. With Skyler, players can easily counter defensive setups and take control of the fight, making him a strong and reliable choice in Free Fire.</string>
+
+    <string name="desc_iris">Iris is a smart and tactical character in Free Fire, known for her unique ability to counter enemy defenses and expose hidden opponents. She specializes in breaking through protective barriers like gloo walls, making her a powerful choice against defensive players. Iris is designed for players who prefer intelligent gameplay, precision, and strategic positioning rather than direct rushing.
+
+    Iris has a sharp and focused personality, always analyzing the battlefield before making a move. She relies on awareness, timing, and accuracy to gain the upper hand in combat. Her calm and calculated approach allows her to outplay enemies who depend on cover and surprise attacks.
+
+    Her special ability allows her to penetrate gloo walls and deal damage to enemies hiding behind them. This makes her extremely effective in situations where opponents are using gloo walls for protection. In addition, her ability can mark enemies, revealing their position and giving valuable information to her and her teammates. This combination of wall penetration and enemy tracking gives Iris a strong tactical advantage during fights.
+
+    In terms of appearance, Iris features a modern and sleek design that reflects her intelligent and focused nature. Her outfit combines futuristic elements with tactical gear, giving her a clean and confident look. Her composed expression and sharp presence highlight her strategic mindset.
+
+    Overall, Iris is an excellent character for players who enjoy smart gameplay, enemy tracking, and countering defensive strategies. She turns enemy cover into a weakness and provides a strong advantage in both solo and squad matches. With Iris, players can gain control of the battlefield through intelligence, precision, and tactical execution in Free Fire.</string>
+
+    <string name="desc_dbee">D-Bee is a lively and energetic character in Free Fire, known for his love of music and fast-paced combat style. He brings a unique combination of speed, rhythm, and shooting accuracy to the battlefield, making him a perfect choice for players who enjoy aggressive and mobile gameplay. D-Bee thrives in close-range fights where constant movement and quick reactions are essential.
+
+    His personality is fun-loving, confident, and full of energy. As a music enthusiast, D-Bee treats every battle like a performance, staying in motion and maintaining a flow that keeps him unpredictable to enemies. His positive attitude and fearless approach make him highly effective in intense combat situations.
+
+    D-Bee’s special ability enhances both movement speed and accuracy while firing, especially when moving. This allows players to stay mobile without sacrificing aim, giving them a major advantage in close combat and rush gameplay. Unlike many characters who require players to stay still for better accuracy, D-Bee encourages dynamic movement, making it harder for enemies to land shots while he continues to deal consistent damage.
+
+    In terms of appearance, D-Bee stands out with a stylish and modern look inspired by music culture. His outfit often includes headphones and trendy streetwear, reflecting his artistic background and energetic personality. His confident posture and vibrant style make him one of the most unique and recognizable characters in Free Fire.
+
+    Overall, D-Bee is an excellent choice for players who prefer fast movement, close-range fights, and aggressive strategies. He allows players to stay active, unpredictable, and accurate at the same time, making him a strong and exciting character for dominating battles in Free Fire.</string>
+
+    <string name="desc_xayne">Xayne is a bold and aggressive character in Free Fire, known for her powerful offensive abilities and fearless combat style. She is designed for players who love high-risk, high-reward gameplay and prefer to take control of fights by pushing enemies directly. Xayne excels at breaking defenses and overwhelming opponents with raw strength and speed.
+
+    Her personality is strong, determined, and rebellious. Xayne thrives in chaotic battle situations where others might hesitate. She believes in facing challenges head-on and never backing down, making her a perfect match for players who enjoy intense and action-packed gameplay.
+
+    Xayne’s unique ability temporarily grants her extra HP, giving her a significant advantage during fights. This bonus health allows her to survive longer in close combat and take more risks while engaging enemies. In addition, her ability increases damage dealt to gloo walls and shields, making her extremely effective at breaking enemy defenses quickly and exposing opponents hiding behind cover.
+
+    In terms of appearance, Xayne stands out with a sporty and modern look that reflects her energetic and fearless nature. Her outfit is inspired by an active lifestyle, combining comfort with combat readiness. Her confident posture and bold style highlight her aggressive personality and readiness for battle.
+
+    Overall, Xayne is an ideal character for players who prefer aggressive strategies, fast engagements, and direct combat. She provides extra survivability, strong offensive power, and the ability to destroy enemy defenses efficiently. With Xayne, players can push harder, fight stronger, and dominate the battlefield in Free Fire.</string>
+
+    <string name="desc_dasha">Dasha is a calm and composed character in Free Fire, known for her exceptional control and stability in combat. She is especially useful for players who want better accuracy and smoother shooting performance. With her unique abilities, Dasha helps reduce common gameplay challenges like recoil and fall damage, making her a reliable choice for both beginners and experienced players.
+
+    Dasha’s personality reflects confidence, focus, and a balanced mindset. She remains steady even in intense battle situations, allowing players to stay in control and perform consistently. Her composed nature makes her ideal for players who prefer precision and control over aggressive rushing.
+
+    Her special ability significantly reduces weapon recoil, allowing players to maintain better aim while firing, especially during continuous shooting. This makes it easier to land accurate shots on enemies, even at medium to long range. Additionally, Dasha reduces fall damage and recovery time, helping players survive jumps and high-ground movements without losing too much health. This combination of recoil control and survivability makes her extremely versatile in different combat situations.
+
+    In terms of appearance, Dasha features a stylish and modern look that reflects her confident personality. Her outfit combines casual fashion with combat-ready elements, giving her a unique and approachable presence on the battlefield. Her relaxed yet focused expression highlights her control and discipline.
+
+    Overall, Dasha is an excellent character for players who want improved accuracy, better control, and safer movement during gameplay. She enhances shooting performance while also reducing damage from environmental risks, making her a well-balanced and dependable character in Free Fire.</string>
+
+    <string name="desc_antonio">Antonio is a tough and resilient character in Free Fire, known for his durability and strong presence right from the start of the match. He is designed to give players an early-game advantage by providing extra HP, making him especially useful during the initial stages where survival is critical. Antonio is a great choice for beginners as well as players who prefer a strong and stable start.
+
+    Antonio’s personality reflects confidence, toughness, and leadership. He is not easily intimidated and always stands firm in dangerous situations. His fearless nature allows players to engage in early fights with more confidence, increasing their chances of winning initial encounters.
+
+    His special ability grants additional HP at the beginning of the game, giving him a clear advantage over opponents who start with standard health. This extra durability allows players to survive longer in early gunfights, take more damage, and recover safely. It is particularly helpful in hot-drop locations where fights begin immediately after landing.
+
+    In terms of appearance, Antonio has a bold and commanding look that reflects his strong personality. His outfit combines a stylish and rugged design, representing power and confidence. His serious expression and dominant posture make him stand out as a character who is always ready for action.
+
+    Overall, Antonio is an excellent character for players who want a strong start, better survivability, and confidence in early battles. He provides a simple yet effective advantage that can make a big difference in the early phase of the game, helping players gain control and momentum in Free Fire.</string>
+
+    <string name="desc_jota">Jota is a powerful close-range combat specialist in Free Fire, known for his aggressive playstyle and instant HP recovery ability. He is designed for players who love fast-paced action and prefer using SMGs and shotguns to dominate enemies in close combat. Jota rewards players who take risks and engage enemies directly, making him a perfect choice for rush gameplay.
+
+    Jota’s personality reflects strength, confidence, and fearlessness. He thrives in intense battle situations where quick reflexes and bold decisions are required. His never-back-down attitude allows players to push enemies aggressively and maintain control of close-range fights.
+
+    His unique ability allows him to instantly recover HP after knocking down or eliminating enemies using SMGs or shotguns. This gives players a huge advantage during continuous fights, as they can regain health immediately without relying on medkits. It helps maintain momentum, especially when facing multiple enemies in quick succession.
+
+    In terms of appearance, Jota has a strong and athletic look that represents his combat-focused nature. His outfit combines sporty and tactical elements, reflecting speed, power, and readiness for action. His confident posture and energetic presence make him stand out on the battlefield.
+
+    Overall, Jota is an ideal character for players who enjoy aggressive gameplay, close-range fights, and high-risk strategies. He provides strong survivability through instant healing and allows players to stay in action without slowing down. With Jota, players can push harder, fight faster, and dominate enemies in Free Fire.</string>
+
+    <string name="desc_kelly">Kelly is one of the fastest and most iconic characters in Free Fire, known for her exceptional speed and agility on the battlefield. She is designed for players who prefer quick movement, fast rotations, and the ability to escape dangerous situations with ease. Kelly’s speed gives her a natural advantage in both offense and defense, making her a versatile choice for all types of gameplay.
+
+    Kelly’s personality is energetic, confident, and full of determination. She loves speed and thrives on staying ahead of her enemies. Her active and fearless nature allows players to move quickly across the map, chase opponents, or reposition strategically during fights.
+
+    Her unique ability increases sprinting speed, allowing players to move faster than normal. This makes it easier to loot quickly, rotate between zones, and avoid enemy attacks. In intense situations, Kelly’s speed can be the difference between survival and elimination. Additionally, her awakened ability enhances her first shot damage after sprinting, giving players an extra offensive advantage when engaging enemies.
+
+    In terms of appearance, Kelly has a sporty and stylish look that reflects her athletic lifestyle. Her outfit is inspired by running gear, combining comfort and performance with a modern design. Her confident expression and dynamic posture highlight her love for speed and action.
+
+    Overall, Kelly is an excellent character for players who value mobility, quick reactions, and fast gameplay. She allows players to stay one step ahead of their opponents, making her a strong and reliable choice in both solo and squad matches in Free Fire.</string>
+
+    <string name="desc_moco_awakened">Moco Awakened is the enhanced and more powerful version of Moco in Free Fire, taking her hacking abilities to the next level. With upgraded intelligence and improved tracking capabilities, she becomes one of the most valuable characters for strategic and competitive gameplay. Moco Awakened is designed for players who rely on information, precision, and smart decision-making to win battles.
+
+    Her personality becomes even more confident and focused after awakening. She operates with a deeper understanding of enemy behavior and uses advanced hacking techniques to gain full control over the battlefield. She remains calm, calculated, and always one step ahead of her opponents.
+
+    Her upgraded ability, often known as “Hacker’s Eye,” allows her to mark enemies for a longer duration after hitting them. This extended tracking gives both her and her teammates continuous visibility of enemy positions, even when they try to hide behind cover. Unlike the basic version, Moco Awakened provides more reliable and longer-lasting information, making it extremely useful in high-level matches and squad coordination.
+
+    In terms of appearance, Moco Awakened features a more futuristic and upgraded design compared to her base version. Her outfit includes advanced tech elements, glowing accents, and a refined hacker aesthetic that reflects her evolved abilities. Her confident stance and sharp expression highlight her mastery over digital warfare.
+
+    Overall, Moco Awakened is a top-tier character for players who value strategy, awareness, and team coordination. She transforms information into a powerful weapon, allowing players to track enemies more effectively and make smarter decisions. With her enhanced abilities, Moco Awakened becomes an essential choice for dominating competitive gameplay in Free Fire.</string>
+
+    <string name="desc_wolfrahh">Wolfrahh is a unique and highly strategic character in Free Fire, known for his ability to reduce damage from headshots and increase his own damage output based on the number of spectators watching him. Unlike traditional characters, Wolfrahh introduces a completely different playstyle that rewards confidence, performance, and engagement during matches.
+
+    Wolfrahh’s personality is energetic, bold, and entertainer-like. As a character inspired by a content creator, he thrives on attention and performs better under pressure. He enjoys being in the spotlight and uses that energy to gain strength in combat, making him both fun and effective to play.
+
+    His special ability provides two key advantages. First, it reduces the damage taken from enemy headshots, increasing his survivability in intense firefights. Second, his damage output increases as the number of spectators rises, giving him a unique boost during matches where he gains attention. This makes him especially powerful in longer fights and high-action situations where performance matters.
+
+    In terms of appearance, Wolfrahh has a modern and flashy style that reflects his influencer personality. His outfit is vibrant and eye-catching, designed to stand out on the battlefield. His confident stance and expressive look make him one of the most distinctive characters in Free Fire.
+
+    Overall, Wolfrahh is a great choice for players who enjoy a unique and unconventional playstyle. He offers both defensive strength and offensive potential, rewarding players who stay active and confident during matches. With his special abilities, Wolfrahh turns attention into power, making him a fun and strategic character in Free Fire.</string>
+
+    <string name="desc_hayato">Hayato is a disciplined and powerful samurai-inspired character in Free Fire, known for his ability to become stronger as his health decreases. He represents honor, resilience, and inner strength, making him a unique choice for players who excel in clutch situations and high-pressure gameplay.
+
+    Hayato’s personality is calm, focused, and deeply rooted in the values of a true warrior. He never panics in difficult situations and instead uses his determination and discipline to turn the fight in his favor. His strong mindset allows players to stay composed even when their HP is low, making him extremely effective in intense battles.
+
+    His special ability increases armor penetration as his HP decreases. This means that the lower his health, the more damage he can deal through enemy armor. This ability makes him especially dangerous in critical moments, allowing players to eliminate enemies quickly even when they are at a disadvantage. It rewards skilled players who can manage low-health situations and make precise attacks.
+
+    In terms of appearance, Hayato stands out with a traditional samurai-inspired design combined with modern elements. His outfit reflects honor, strength, and discipline, with sharp details that emphasize his warrior identity. His serious expression and composed posture make him a commanding presence on the battlefield.
+
+    Overall, Hayato is an ideal character for players who thrive under pressure and enjoy clutch gameplay. He turns weakness into strength, allowing players to fight back even in critical conditions. With his unique ability and strong mindset, Hayato offers a powerful and strategic advantage in Free Fire.</string>
+
+    <string name="desc_maro">Maro is a highly skilled and focused character in Free Fire, known for his exceptional long-range combat abilities and precision shooting. He is specially designed for players who prefer sniping and strategic positioning, making him one of the best choices for long-distance engagements.
+
+    Maro’s personality reflects calmness, patience, and sharp focus. He is a silent hunter who carefully observes the battlefield and waits for the perfect moment to strike. His disciplined mindset allows players to stay composed and make accurate shots from a distance, avoiding unnecessary risks.
+
+    His unique ability increases damage as the distance between him and the enemy grows. This makes him extremely powerful in long-range fights, especially when using sniper rifles or marksman weapons. Additionally, Maro deals extra damage to enemies using gloo walls, making him effective against defensive players. This combination of range-based damage and anti-defense capability gives him a strong advantage in open-field combat.
+
+    In terms of appearance, Maro has a rugged and adventurous look inspired by survival and exploration. His outfit reflects a connection with nature and a hunter’s lifestyle, often accompanied by his falcon companion. His confident and focused expression highlights his precision and control.
+
+    Overall, Maro is the perfect character for players who enjoy sniping, long-range combat, and strategic gameplay. He rewards patience, accuracy, and positioning, allowing players to eliminate enemies from a distance with maximum efficiency. With Maro, players can dominate the battlefield from afar and control fights with precision in Free Fire.</string>
+
+    <string name="desc_default">This character is unique and powerful in their own way bringing special abilities to enhance gameplay.</string>
+
+
+    <string name="emote_1">This emote represents a high-energy celebratory dance where the character jumps with excitement and expresses joy after a successful moment. It is often used after winning fights or clutch situations. The movement shows confidence, happiness, and a sense of achievement, making it perfect for showing dominance and positive vibes on the battlefield.</string>
+
+    <string name="emote_2">This emote showcases a freestyle dance move with both hands raised, symbolizing freedom and confidence. It gives a stylish and energetic vibe, making it suitable for casual fun moments or after eliminating enemies. Players use this emote to express their relaxed and fearless personality during gameplay.</string>
+
+    <string name="emote_3">This emote features a rhythmic one-hand dance pose that reflects attitude and control. It is commonly used to show off skills or tease opponents after a strong play. The movement is smooth and stylish, giving the character a confident and slightly playful appearance.</string>
+
+    <string name="emote_4">This emote represents a cool and composed pose where the character raises a hand with attitude. It is often used to show calm dominance and control over the situation. Players use this emote when they want to look confident without being overly aggressive.</string>
+
+    <string name="emote_5">This emote expresses love and friendliness, where the character shows a heart symbol. It is used to create a positive and friendly interaction with teammates or even enemies. It represents kindness, appreciation, and emotional expression in the game.</string>
+
+    <string name="emote_6">This emote shows a commanding gesture where the character points forward, often used to challenge or call out enemies. It represents confidence, leadership, and aggression. Players use this emote to show dominance or to provoke opponents during matches.</string>
+
+    <string name="emote_7">This emote features a playful football-style movement where the character interacts with a ball. It represents fun, creativity, and a sporty vibe. Players use it during relaxed moments or to entertain teammates while waiting.</string>
+
+    <string name="emote_8">This emote displays a strong warrior-like stance where the character holds weapons in a stylish manner. It reflects power, readiness, and combat confidence. It is perfect for showing strength before or after a fight.</string>
+
+    <string name="emote_9">This emote shows a lively and energetic dance with expressive movements, often used for celebration and entertainment. It represents joy, rhythm, and a carefree attitude, making it one of the most fun emotes to use.</string>
+
+    <string name="emote_10">This emote features a cute and funny character pose that adds humor to the gameplay. It is used to lighten the mood and create entertaining moments. Players often use it to make others laugh or break tension.</string>
+
+    <string name="emote_11">This emote showcases an advanced acrobatic move like a handstand or flip, representing skill and flexibility. It is used to impress others and show off unique style and control.</string>
+
+    <string name="emote_12">This emote presents a stylish dance with attitude, combining smooth movements and confidence. It is often used to show personality, celebrate wins, or simply enjoy the game in a fashionable way.</string>
+
+
+</resources>

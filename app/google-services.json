@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11205195914",
+    "project_id": "ff-bundle-fc2ea",
+    "storage_bucket": "ff-bundle-fc2ea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11205195914:android:82f9dd25c468c186ebd573",
+        "android_client_info": {
+          "package_name": "com.fastemoteskin.ffbundleskin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOunXFqhiTAXOHKr-7ZLVSFFBCk9Oj0rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.SettingsActivity">
+
+    <!-- Back Icon -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_back"
+        android:tint="@android:color/white"
+        android:layout_marginStart="20dp"
+ />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:text="Settings"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/btnBack"
+        android:layout_marginStart="15dp"
+        android:layout_alignTop="@id/btnBack"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <!-- Container -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@id/btnBack"
+         android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Share -->
+        <LinearLayout
+            android:id="@+id/btnShare"
+            style="@style/itemStyle">
+
+            <TextView
+                android:text="Share App"
+                style="@style/itemText"/>
+
+            <ImageView
+                android:src="@drawable/ic_arrow"
+                style="@style/itemArrow"/>
+        </LinearLayout>
+
+        <!-- Rate -->
+        <LinearLayout
+            android:id="@+id/btnRate"
+            style="@style/itemStyle">
+
+            <TextView
+                android:text="Rate Us"
+                style="@style/itemText"/>
+
+            <ImageView
+                android:src="@drawable/ic_arrow"
+                style="@style/itemArrow"/>
+        </LinearLayout>
+
+        <!-- Privacy -->
+        <LinearLayout
+            android:id="@+id/btnPrivacy"
+            style="@style/itemStyle">
+
+            <TextView
+                android:text="Privacy Policy"
+                style="@style/itemText"/>
+
+            <ImageView
+                android:src="@drawable/ic_arrow"
+                style="@style/itemArrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

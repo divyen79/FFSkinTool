@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:background="@drawable/bg_gradient"
+    tools:context=".Activity.CalculatorDetailActivity">
+
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_back"/>
+
+    <!-- Title -->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/title"
+        android:text="Calculator"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/btnBack"
+        android:layout_marginStart="15dp"
+        android:layout_alignTop="@id/btnBack"/>
+
+    <ScrollView
+        android:layout_below="@id/btnBack"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- ICON -->
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitCenter"/>
+
+            <!-- SUB TITLE -->
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/subTitle"
+                android:text="FF Free Calculator"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <!-- DESC -->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#CCCCCC"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:text="Are you a true Free Fire fan? Then this app is made just for you! Easily calculate the value of your in-game diamonds in USD. Just enter the number of diamonds, hit the calculate button, and boom — you’ve got the cost right there!"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <!-- INPUT -->
+            <EditText
+                android:id="@+id/etValue"
+                android:hint="Enter Value"
+                android:textColor="@android:color/white"
+                android:textColorHint="#BCBCBC"
+                android:background="@drawable/bg_card"
+                android:padding="15dp"
+                android:textSize="15dp"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/result"
+                android:text="Result: ₹0"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <!-- BUTTON -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCalculate"
+                android:text="Calculate Now"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_dimond"
+                android:textColor="@android:color/white"
+                android:layout_width="240dp"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

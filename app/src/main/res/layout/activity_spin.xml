@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Activity.SpinActivity">
+
+
+    <!-- Back -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16sp"
+        android:src="@drawable/ic_back"/>
+
+    <!-- Title -->
+    <TextView
+        android:text="Spin &amp; Win"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/btnBack"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <!-- Wheel -->
+    <!-- Wheel + Pointer Wrapper -->
+    <FrameLayout
+        android:id="@+id/wheelContainer"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <!-- Wheel -->
+        <ImageView
+            android:id="@+id/wheel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/spin_wheel"
+            android:scaleType="fitCenter"/>
+
+        <!-- Pointer (TOP CENTER SAME AS OLD) -->
+        <ImageView
+            android:id="@+id/icPointer"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:src="@drawable/ic_pointer"/>
+    </FrameLayout>
+    <!-- Result -->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/result"
+        android:text="Total: 0 💎"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@id/wheelContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSpin"
+        android:text="Spin Wheel"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_dimond"
+        android:layout_width="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+</RelativeLayout>
