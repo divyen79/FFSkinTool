@@ -23,22 +23,60 @@ object RemoteConfigManager {
     }
 
     fun fetchAndShow(context: Context, key: String, function: () -> Unit) {
-        remoteConfig.fetchAndActivate().addOnCompleteListener {
 
-            if (it.isSuccessful) {
+        Log.d("TAG", "fetchAndShow: ${MyApp.Companion.url}")
+        if (!isInternetAvailable(context)) {
 
-                MyApp.Companion.url = remoteConfig.getString(key)
-                Log.d("TAG", "fetchAndShow: ${MyApp.Companion.url}")
+            Log.d("TAG", "No Internet → Direct next screen")
 
-
-                if (MyApp.Companion.url.isNotEmpty()) {
-                    val intent = Intent(context, WebViewActivity::class.java)
-                    intent.putExtra("url", MyApp.Companion.url)
-                    context.startActivity(intent)
-                }
-            }
-
+            // 👉 Direct next screen
+            function.invoke()
+            return
         }
+
+        // ✅ 2. Internet available → normal flow
+        function.invoke()
+
+        if (MyApp.Companion.url.isNotEmpty()) {
+            val intent = Intent(context, WebViewActivity::class.java)
+            intent.putExtra("url", MyApp.Companion.url)
+            context.startActivity(intent)
+        }
+
+
+//        remoteConfig.fetchAndActivate().addOnCompleteListener {
+//
+//
+//
+//            if (it.isSuccessful) {
+//
+//                MyApp.Companion.url = remoteConfig.getString(key)
+//                Log.d("TAG", "fetchAndShow: ${MyApp.Companion.url}")
+//
+//
+////                if (MyApp.Companion.url.isNotEmpty()) {
+////                    val intent = Intent(context, WebViewActivity::class.java)
+////                    intent.putExtra("url", MyApp.Companion.url)
+////                    context.startActivity(intent)
+////                }
+//            }
+//            else{
+//
+//            }
+//
+//        }
+    }
+
+    fun isInternetAvailable(context: Context): Boolean {
+        val connectivityManager =
+            context.getSystemService(Context.CONNECTIVITY_SERVICE) as android.net.ConnectivityManager
+
+        val network = connectivityManager.activeNetwork ?: return false
+        val activeNetwork = connectivityManager.getNetworkCapabilities(network) ?: return false
+
+        return activeNetwork.hasTransport(android.net.NetworkCapabilities.TRANSPORT_WIFI) ||
+                activeNetwork.hasTransport(android.net.NetworkCapabilities.TRANSPORT_CELLULAR) ||
+                activeNetwork.hasTransport(android.net.NetworkCapabilities.TRANSPORT_ETHERNET)
     }
 
     fun fetchAndShow(context: Context, key: String, onDone: () -> Unit,onFail : ()-> Unit) {

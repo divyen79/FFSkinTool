@@ -54,8 +54,8 @@ class MainActivity : AppCompatActivity() {
             RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
                 Log.d(TAG, "RemoteConfig loaded")
 
-                super.onBackPressed()
-            }
+
+
 //            RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
                 when (position) {
 
@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-//        }
+        }
 
 
         recyclerView.layoutManager = LinearLayoutManager(this)
@@ -104,12 +104,12 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "Settings button clicked")
 
             RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
-                finish()
-            }
-//            RemoteConfigManager.fetchAndShow(this, "fbundlwebid")
-            startActivity(Intent(this, SettingsActivity::class.java))
-        }
 
+
+//            RemoteConfigManager.fetchAndShow(this, "fbundlwebid")
+                startActivity(Intent(this, SettingsActivity::class.java))
+            }
+        }
     }
 
 

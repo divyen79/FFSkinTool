@@ -60,8 +60,8 @@ class DiamondGuideActivity : AppCompatActivity() {
             Log.d(TAG, "Item clicked position: $position")
 
             RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
-                super.onBackPressed()
-            }
+
+
 
                 when (position) {
 
@@ -75,7 +75,7 @@ class DiamondGuideActivity : AppCompatActivity() {
 
                     4 -> startActivity(Intent(this, WeaponsActivity::class.java))
                 }
-
+            }
 
         }
         recyclerView.layoutManager = LinearLayoutManager(this)

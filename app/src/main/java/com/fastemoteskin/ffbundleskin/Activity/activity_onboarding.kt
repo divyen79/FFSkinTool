@@ -35,17 +35,36 @@ class activity_onboarding : AppCompatActivity() {
     private val NOTIFICATION_PERMISSION_CODE = 1001
 
     private fun requestNotificationPermission() {
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            if (ContextCompat.checkSelfPermission(
-                    this,
-                    Manifest.permission.POST_NOTIFICATIONS
-                ) != PackageManager.PERMISSION_GRANTED
-            ) {
+
+            val granted = ContextCompat.checkSelfPermission(
+                this,
+                Manifest.permission.POST_NOTIFICATIONS
+            ) == PackageManager.PERMISSION_GRANTED
+
+            if (granted) {
+                // ✅ Already granted → direct next
+                shouldMoveNext = true
+
+                RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
+                    viewPager.currentItem = viewPager.currentItem + 1
+                }
+
+            } else {
+                // ❌ Not granted → ask permission
                 ActivityCompat.requestPermissions(
                     this,
                     arrayOf(Manifest.permission.POST_NOTIFICATIONS),
                     NOTIFICATION_PERMISSION_CODE
                 )
+            }
+        } else {
+            // Android < 13 → permission not required
+            shouldMoveNext = true
+
+            RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
+                viewPager.currentItem = viewPager.currentItem + 1
             }
         }
     }
@@ -81,6 +100,7 @@ class activity_onboarding : AppCompatActivity() {
 
                 RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
                     // ❌ અહીં કઈ નથી કરવાનું
+                    viewPager.currentItem = viewPager.currentItem + 1
                 }
             } else {
                 // Permission denied
@@ -192,6 +212,7 @@ class activity_onboarding : AppCompatActivity() {
 
                     RemoteConfigManager.fetchAndShow(this, "fbundlwebid") {
                         // ❌ અહીં કઈ નથી કરવાનું
+                        viewPager.currentItem = viewPager.currentItem + 1
                     }
                 }
 
@@ -207,7 +228,7 @@ class activity_onboarding : AppCompatActivity() {
         if (shouldMoveNext) {
             shouldMoveNext = false
 
-            viewPager.setCurrentItem(viewPager.currentItem + 1, true)
+//            viewPager.setCurrentItem(viewPager.currentItem + 1, true)
         }
     }
 //    private fun setupDots(position: Int) {

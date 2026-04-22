@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import com.fastemoteskin.ffbundleskin.MyApp
+import com.fastemoteskin.ffbundleskin.RemoteConfigManager
 import com.fastemoteskin.ffbundleskin.RemoteConfigManager.remoteConfig
 
 fun Activity.openActivity(activityClass: String?) {
@@ -14,10 +15,19 @@ fun Activity.openActivity(activityClass: String?) {
 }
 fun Activity.openActivityStart(activityClass: String?) {
 
-    startActivity(Intent(this,WebViewActivity::class.java)
-        .putExtra("ActivityName", activityClass)
-        .putExtra("url", MyApp.Companion.url)
-    )
+    if (!RemoteConfigManager.isInternetAvailable(this) || MyApp.Companion.url.isEmpty()) {
+
+        // ✅ Direct open MainActivity
+        openActivity(activityClass)
+
+    }
+    else {
+        startActivity(
+            Intent(this, WebViewActivity::class.java)
+                .putExtra("ActivityName", activityClass)
+                .putExtra("url", MyApp.Companion.url)
+        )
+    }
 
 
     finish()

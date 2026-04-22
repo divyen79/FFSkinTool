@@ -19,7 +19,7 @@ class ScratchActivity : AppCompatActivity() {
 
     var total = 0
     var revealed = false
-
+    private var isAdShowing = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
          setContentView(R.layout.activity_scratch)
